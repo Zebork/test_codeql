@@ -1,4 +1,2 @@
-
-var a = 10
-var b = 20
-console.log(b)
+var param = location.hash.split("#")[1];
+document.write("Hello " + param + "!");
